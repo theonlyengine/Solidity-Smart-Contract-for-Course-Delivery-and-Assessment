@@ -1,0 +1,29 @@
+Key Features:
+Course Management: Allows the creation of courses with associated materials and quizzes.
+Student Enrollment: Students can enroll in courses.
+Material and Quiz Management:
+Owners can add course materials and quizzes.
+Quizzes include questions with multiple options and a correct answer.
+Quiz Completion:
+Enrolled students can complete quizzes.
+Automatic grading based on the selected option.
+Event Emission: Events for creating courses, enrolling students, adding materials, adding quizzes, and completing quizzes.
+Modifiers: onlyEnrolled ensures only enrolled students can access course materials and quizzes.
+Functions:
+createCourse: Allows the owner to create new courses.
+enrollStudent: Allows students to enroll in courses.
+addMaterial: Allows the owner to add materials to a course.
+addQuiz: Allows the owner to add quizzes to a course.
+completeQuiz: Allows enrolled students to complete quizzes and receive instant feedback.
+getCourseDetails: Retrieves course details.
+getMaterial: Allows enrolled students to access course materials.
+getQuiz: Allows enrolled students to access quiz questions and options.
+hasCompletedQuiz: Checks if a student has completed a specific quiz.
+isQuizCorrect: Checks if a student's quiz answer was correct.
+Deployment and Usage:
+Deploy the Contract: Deploy the CourseDelivery contract, providing the address of the MaartionToken contract.
+Create Courses: The owner can create courses using the createCourse function.
+Enroll Students: Students can enroll in courses using the enrollStudent function.
+Add Materials and Quizzes: The owner can add materials and quizzes using addMaterial and addQuiz.
+Complete Quizzes: Enrolled students can complete quizzes using completeQuiz and receive feedback instantly.
+View Course Content: Enrolled students can view materials and quizzes using getMaterial and getQuiz.
